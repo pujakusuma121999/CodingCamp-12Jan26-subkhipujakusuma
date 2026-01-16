@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between; /* kiri & kanan */
+  align-items: center;
+  padding: 20px 40px;
+}
+
+/* LOGO */
+.logo {
+  height: 75px;
+  width: 400px;
+  background-image: url("https://raw.githubusercontent.com/pujakusuma121999/CodingCamp-12Jan26-subkhipujakusuma/main/PPID.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+/* NAVIGATION */
+.nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #0056b3;
+  font-weight: 500;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
